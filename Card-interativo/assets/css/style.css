@@ -32,7 +32,8 @@ body{
     height: 50px;
     border-radius: 100%;
     color: orange;
-    background-color:#e9e9e9;
+    background-color: hsl(240, 100%, 100%);
+    opacity: 0.8;
     display: flex;
     justify-content: center;
     align-items: center;
