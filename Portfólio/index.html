@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/520b1dcf49.js" crossorigin="anonymous"></script>
     <title>DevNauta</title>
 </head>
 <body>
@@ -15,13 +17,25 @@
         <a class="logo" href="">LOGO</a>
         <nav class="navbar">
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Sobre</a></li>
-                <li><a href="">Projetos</a></li>
-                <li><a href="">Contato</a></li>                
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#works">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>                
             </ul>
-            <button class="btn">Download CV</button>
+            <button class="btn">Download CV</button>            
         </nav>
+        <i class="fa-solid fa-bars"></i>       
     </header>
+    <nav class="navbar-mobile">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#works">Projetos</a></li>
+            <li><a href="#contact">Contato</a></li>                
+        </ul>
+    </nav>
+
+
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
